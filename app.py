@@ -28,4 +28,4 @@ def predict():
         return jsonify({'error': str(e)}), 500  # Send error response if something breaks
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)  # Disable debug mode
