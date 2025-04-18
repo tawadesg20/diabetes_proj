@@ -46,22 +46,7 @@ pip install -r requirements.txt
 
 ### **2️⃣ Run Streamlit Web App**  
 ```bash
-streamlit run app.py
+streamlit run app1.py
 ```
 ✔️ This will open an **interactive web page** where users can enter health details and receive predictions.
 
-
-## **📌 Deployment on Render**  
-
-### **Steps to Deploy**
-1️⃣ Push project files to **GitHub** 📂  
-2️⃣ Create a new **Web Service on Render** 🚀  
-3️⃣ Deploy Flask API with:
-   ```bash
-   python app.py
-   ```
-4️⃣ Deploy Streamlit UI with:
-   ```bash
-   streamlit run app.py
-   ```
-✔ You’ll receive a **public URL** where anyone can access your diabetes prediction app!
